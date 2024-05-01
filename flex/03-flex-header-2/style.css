@@ -4,7 +4,7 @@ you'll learn about it later. */
 
 body {
   margin: 0;
-  background: #eee;
+  background: #bfbfbf;
   font-family: Besley, serif;
 }
 
@@ -12,7 +12,26 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
 }
+
+.left {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 16px;
+}
+
+.right {
+  display: flex ;
+  align-items: center;
+  gap: 16px;
+
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -41,8 +60,18 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  font-weight: bold;
 }
 
 ul {
+  display: flex;
+  margin: 0;
+  padding : 0;
   list-style-type: none;
+  gap: 16px;
+
 }
+
+
+
+
